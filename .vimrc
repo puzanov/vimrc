@@ -8,6 +8,13 @@
 :set tags+=/home/oleg/tags
 :set number
 :set incsearch
+:set pastetoggle=<F2>
+nmap <F3> :NERDTreeToggle <CR>
+
+nnoremap <F4> :TlistToggle<CR>
+let Tlist_Show_One_File=1
+let tlist_php_settings='php;c:class;f:function'
+let Tlist_Sort_Type = 'name'
 
 filetype plugin on
 au FileType php set omnifunc=phpcomplete#CompletePHP
