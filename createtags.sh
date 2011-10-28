@@ -1,3 +1,4 @@
+# */5 * * * * oleg  /home/oleg/createtags.sh
 #!/bin/bash
 exec ctags-exuberant -f ~/tags \
 -h "*.*" -R \
