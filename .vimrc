@@ -11,6 +11,9 @@
 :set pastetoggle=<F2>
 nmap <F3> :NERDTreeToggle <CR>
 
+imap <C-e> <Esc>\be                                                                                                                     
+nmap <C-e> \be
+
 nnoremap <F4> :TlistToggle<CR>
 let Tlist_Show_One_File=1
 let tlist_php_settings='php;c:class;f:function'
@@ -25,7 +28,7 @@ let php_htmlInStrings=1
 if &term =~ "xterm"
   "256 color --
   let &t_Co=256
-  " restore screen after quitting
+  "restore screen after quitting
   set t_ti=ESC7ESC[rESC[?47h t_te=ESC[?47lESC8
   if has("terminfo")
     let &t_Sf="\ESC[3%p1%dm"
@@ -35,5 +38,5 @@ if &term =~ "xterm"
     let &t_Sb="\ESC[4%dm"
   endif
 endif
-
-:colors molokai
+colors wombat256mod
+set cursorline

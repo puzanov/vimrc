@@ -1,3 +1,4 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =2
 let g:netrw_dirhist_1='/mnt/src/namba/dev/lib/vendor/Smarty-3.0.6/libs/plugins'
+let g:netrw_dirhist_2='/home/oleg/.vim'
