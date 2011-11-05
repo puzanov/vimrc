@@ -38,5 +38,4 @@ if &term =~ "xterm"
     let &t_Sb="\ESC[4%dm"
   endif
 endif
-colors wombat256mod
-set cursorline
+colors simple256
